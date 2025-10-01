@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ContainerCounter
   _counterTopPoint: {fileID: 4097308384627060712}
-  _kitchenObjectSO: {fileID: 11400000, guid: d2947b0042e31fa4db5e559becff1714, type: 2}
+  _kitchenObjectSO: {fileID: 0}
 --- !u!114 &5274484485179902095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,6 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c603218bc588bf4a8a3fe8eef7a4cf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ContainerCounterVisual
+  _containerCounter: {fileID: 327778310772458982}
 --- !u!1001 &3695566022594703579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -132,6 +133,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4589716710238282923, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841286013473667211, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841286013473667211, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
+      propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
